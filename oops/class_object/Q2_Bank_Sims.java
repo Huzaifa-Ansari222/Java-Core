@@ -18,7 +18,6 @@ acc.displayBalance();
  */
 package oops.class_object;
 public class Q2_Bank_Sims {
-
     public static void main(String[] args) {
         System.out.println("---------------------------");
         BankAccount acc = new BankAccount(123456,50000); // creation of account or holder
@@ -57,7 +56,7 @@ class BankAccount{
             balance = balance - withdrawAmt;
         }
         else {
-            System.out.println("Insufficent ammount:");
+            System.out.println("insufficient ammount:");
         }
     }
     void displayBalance(){
@@ -65,6 +64,5 @@ class BankAccount{
         System.out.println("Account no: "+accountNumber);
         System.out.println("You Balance: "+balance);
     }
-
 }
 
