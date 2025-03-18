@@ -140,3 +140,17 @@ class Library {
 | member2   | Borrowed: []          | hzfa                   |             |
 ===========================================================================
  */
+
+/*
+===============================================================================
+| Type               | Example                                                |
+|--------------------|--------------------------------------------------------|
+| Numbers            | List<Integer> (1, 2, 3)                                |
+| Strings            | List<String> ("Apple", "Banana")                       |
+| Objects            | List<Book> (Book1, Book2)                              |
+| Lists (Nested)     | List<List<Integer>>                                    |
+| Mixed Data (Object) | List<Object> ("Hello", 10, new Book())                |
+| Maps               | List<Map<String, Integer>> (Dictionary-like structure) |
+===============================================================================
+
+ */
