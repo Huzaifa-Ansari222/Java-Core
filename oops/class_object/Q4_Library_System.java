@@ -77,7 +77,7 @@ class Book{
 class Member{
     String name;
     int memberId;
-    List<Book> borrowedBooks;  // List to track borrowed books /Track the Book is taken or not
+    List<Book> borrowedBooks;  // List to track borrowed books /Track the address of Book is taken or not
 //  dataType<> varName;
 
     Member(String name, int memberId){
@@ -153,4 +153,27 @@ class Library {
 | Maps               | List<Map<String, Integer>> (Dictionary-like structure) |
 ===============================================================================
 
+ */
+/*
+| Objects   | List<Book> (Book1, Book2)
+Heap Memory: (Objects stored)
+---------------------------------
+| book1  |   Java     |  John   |
+| book2  |   Python   |  Alice  |
+---------------------------------
+
+ArrayList Memory (References stored)
+---------------------------------
+| Index 0 -> book1 (0x1234)  |
+| Index 1 -> book2 (0x5678)  |
+---------------------------------
+
+Note:
+The list itself does not store actual Book objects.
+It only holds references (memory addresses) to Book objects stored in the heap.
+
+Key Takeaways
+✅ List<Book> stores references (not actual objects).
+✅ The actual Book objects exist in heap memory.
+✅ ArrayList dynamically resizes when adding/removing elements.
  */
