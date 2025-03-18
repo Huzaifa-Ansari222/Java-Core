@@ -47,36 +47,36 @@ import java.util.Map;
 
 public class Q5_Train_Booking_System {
     public static void main(String[] args) {
-        BookingSystem system = new BookingSystem();
+        BookingSystem Bsystem = new BookingSystem();
 
         // Add trains
-        Train t1 = new Train("12345", "Rajdhani Express", 5);
-        Train t2 = new Train("67890", "Shatabdi Express", 3);
-        system.addTrain(t1);
-        system.addTrain(t2);
+        Train t1 = new Train("12345", "Rajdhani Express", 100);
+//        Train t2 = new Train("67890", "Shatabdi Express", 3);
+        Bsystem.addTrain(t1);
+//        system.addTrain(t2);
 
         // Passengers
-        Passenger p1 = new Passenger("Rahul", 25);
-        Passenger p2 = new Passenger("Priya", 22);
-        Passenger p3 = new Passenger("Amit", 30);
+        Passenger p1 = new Passenger("huzaifa", 24);
+        Passenger p2 = new Passenger("huzz", 22);
+//        Passenger p3 = new Passenger("Amit", 30);
 
         // Book Tickets
-        system.bookTicket("12345", p1);
-        system.bookTicket("12345", p2);
-        system.bookTicket("12345", p3);
+        Bsystem.bookTicket("12345", p1);
+        Bsystem.bookTicket("12345", p2);
+//        Bsystem.bookTicket("12345", p3);
 
         // Check availability
-        system.displayAvailableSeats("12345");
+        Bsystem.displayAvailableSeats("12345");
 
         // Cancel Ticket
-        system.cancelTicket("12345", p1);
+        Bsystem.cancelTicket("12345", p2);
 
         // Check availability after cancellation
-        system.displayAvailableSeats("12345");
+        Bsystem.displayAvailableSeats("12345");
 
         // Try booking another ticket
         Passenger p4 = new Passenger("Sonia", 28);
-        system.bookTicket("12345", p4);
+        Bsystem.bookTicket("12345", p4);
     }
 }
 
