@@ -15,7 +15,8 @@ public class StackHeap {
         System.out.println("str2 hash: " + System.identityHashCode(str2));
 
         str1 = null;  // Object now eligible for GC
-        System.out.println("str1 to null: " + System.identityHashCode(str1));//0
+        System.out.println("str1 to null: " + System.identityHashCode(str1));// pointing null will means no use will remove by GC later
+        System.out.println("str2 hash: " + System.identityHashCode(str2));
         //System.gc(); // Just a request, JVM may ignore it.
 
     }
