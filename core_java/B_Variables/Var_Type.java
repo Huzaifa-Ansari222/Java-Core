@@ -14,7 +14,7 @@ public class Var_Type {
         var x1 = 'H';
         var x2 = "huzaifa34@";
         var x3 = 20.33;
-        var var = 333; // var type isnot reseverd
+        var var = 333; // var type is not reserved
 
         System.out.println(x);
         System.out.println(x1);
