@@ -1,9 +1,8 @@
 package oops.inheritance;
 
-public class _0_Single_Level {
+public class _1_Single_Level {
 //    Single level inheritance
 //    Developer -> Employee  /📌 Subclass -> Superclass
-//    [Developer] ---▷ [Employee]  /uml
 }
 class Employee{
     String name = "Huzaifa" ;

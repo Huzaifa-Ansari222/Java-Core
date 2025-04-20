@@ -1,6 +1,6 @@
 package oops.inheritance;
 
-public class _1_Multi_Level {
+public class _2_Multi_Level {
 //    Multi level inheritance
 //    HR -> Department -> Company
 }
