@@ -1,6 +1,6 @@
 package oops.polymorphism.overriding;
 
-public class Polymorphism {
+public class _0Overriding {
 
 }
 class Parent {
