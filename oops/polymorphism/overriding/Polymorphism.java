@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package oops.polymorphism.overriding;
 
 public class Polymorphism {
 
@@ -35,7 +35,7 @@ class Child extends Parent {
         // ✅ access /Upcasting to Parent / Parent <-- Child(object)
         // Legal and correct. This is polymorphism.
 
-        childObj1.parentMethod(); // Output: "child things"
+        childObj1.parentMethod(); // Output: "polymorphism in action"
 
     }
 }
