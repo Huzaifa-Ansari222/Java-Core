@@ -1,7 +1,7 @@
 package oops.inheritance;
 
 public class _4_Multiple_Inheritance {
-
+// Multiple inheritance using interface
 }
 interface Camera {
     void takePhoto(); //imComplete method
