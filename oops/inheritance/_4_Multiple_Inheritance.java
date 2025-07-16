@@ -5,12 +5,12 @@ public class _4_Multiple_Inheritance {
 }
 interface Camera {
     void takePhoto(); //imComplete method
-    void recordVideo();
+    void recordVideo(); //incomplete method
 }
 
 interface MusicPlayer {
-    void playMusic();
-    void stopMusic();
+    void playMusic(); //incomplete method
+    void stopMusic(); //incomplete method
 }
 class SmartPhone implements Camera,MusicPlayer{
     public void takePhoto() {
