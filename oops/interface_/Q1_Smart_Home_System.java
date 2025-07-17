@@ -1,4 +1,4 @@
-package oops.inheritance;
+package oops.interface_;
 
 public class Q1_Smart_Home_System {
     public static void main(String[] args) {
@@ -35,6 +35,6 @@ class SmartDevice implements LightController, TemperatureController { //only 1 p
 
     @Override
     public void setTemperature(int temp){
-        System.out.println(temp);
+        System.out.println("Temperature set to " + temp + "°C");
     }
 }
