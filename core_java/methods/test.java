@@ -1,4 +1,4 @@
-package core_java.D_Methods;
+package core_java.methods;
 
 public class test
 {

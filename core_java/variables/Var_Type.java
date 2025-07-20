@@ -1,4 +1,4 @@
-package core_java.B_Variables;
+package core_java.variables;
 
 public class Var_Type {
 //    var z = 10;//error

@@ -1,6 +1,6 @@
 // Note: Class = Blueprint | Object = Instance
 
-package core_java.A_Class_Object;
+package oops.class_object;
 
 public class BasicClass {
     public static void main(String[] args) {

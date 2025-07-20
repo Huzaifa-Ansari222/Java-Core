@@ -1,4 +1,4 @@
-package core_java.C_Memory_Management;
+package core_java.memory_management;
 
 public class StackHeap {
     public static void main(String[] args) {
