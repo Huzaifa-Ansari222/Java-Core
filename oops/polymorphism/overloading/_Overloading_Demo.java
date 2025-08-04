@@ -1,6 +1,6 @@
 package oops.polymorphism.overloading;
 
-public class _0Overloading {
+public class _Overloading_Demo {
     // Method 1: no parameters
     void show() {
         System.out.println("No parameters");
@@ -22,7 +22,7 @@ public class _0Overloading {
     }
 
     public static void main(String[] args) {
-        _0Overloading obj = new _0Overloading();
+        _Overloading_Demo obj = new _Overloading_Demo();
 
         obj.show();           // Output: No parameters
         obj.show(10);         // Output: Integer: 10
